@@ -1,0 +1,22 @@
+.projectCard{
+    cursor: pointer;
+}
+.navBtn{
+    cursor: pointer;
+}
+.php{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.html{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.node{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
