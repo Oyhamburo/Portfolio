@@ -1,22 +1,39 @@
-.projectCard{
+.projectCard {
     cursor: pointer;
 }
-.navBtn{
+
+.navBtn {
     cursor: pointer;
 }
-.php{
-    text-align: center;
-    display: flex;
-    justify-content: center;
+
+.navBtn__mobile {
+    display: none;
 }
-.html{
+
+.php {
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-.node{
+.html {
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+.node {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1000px) {
+    .navBtn__desktop {
+        display: none;
+    }
+
+    .navBtn__mobile {
+        display: block;
+    }
 }

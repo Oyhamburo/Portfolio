@@ -1,17 +1,27 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import consumiendo from "../assets/img/consumiendo.jpeg";
-import axie from "../assets/img/a.jpeg";
+import axie from "../assets/img/a.gif";
 import dex from "../assets/img/dex.jpeg";
 import pokedex from "../assets/img/pokedex.jpeg";
+import portfolio from "../assets/img/portfolio.gif";
 import cerchio from "../assets/img/cerchio.jpeg";
 import pokeJs from "../assets/img/pokeJs.gif";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import './main.css'
 import TrackVisibility from 'react-on-screen';
+import { useLayoutEffect, useRef, useState } from "react";
 
 export const Projects = () => {
+  const ref = useRef(null);
+
+  const [width, setWidth] = useState(0);
+
+  useLayoutEffect(() => {
+    setWidth(ref.current.offsetWidth);
+  }, []);
+
 
   const projectsHtml = [
     {
@@ -37,6 +47,12 @@ export const Projects = () => {
       description: "Javascript Vanila",
       imgUrl: pokedex,
       link: 'https://oyhamburo.github.io/CoderJsPokedex/'
+    },
+    {
+      title: "Antiguo Portfolio",
+      description: "HTML & CSS/SASS",
+      imgUrl: portfolio,
+      link: 'https://oyhamburo.github.io/PortfolioOld/'
     }
   ]
   const projectsNode = [
@@ -54,6 +70,10 @@ export const Projects = () => {
     }
   ]
 
+  console.log(width)
+
+
+
   return (
     <section className="project" id="project">
       <Container>
@@ -65,9 +85,9 @@ export const Projects = () => {
                   <h2>Projects</h2>
                   <p>Una pequeña galería con los proyectos que he realizado, esperando poder expandirlo muy pronto.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab" ref={ref}>
                       <Nav.Item>
-                        <Nav.Link eventKey="first" className="navBtn" >HTML / CSS / Javascript</Nav.Link>
+                        <Nav.Link eventKey="first" className="navBtn" >{width > 900 ? 'HTML / CSS / Javascript' : 'Html/Css'}</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second" className="navBtn" >NodeJs</Nav.Link>
