@@ -6,9 +6,6 @@
     cursor: pointer;
 }
 
-.navBtn__mobile {
-    display: none;
-}
 
 .php {
     text-align: center;
@@ -28,12 +25,10 @@
     justify-content: center;
 }
 
-@media only screen and (min-width: 1000px) {
-    .navBtn__desktop {
-        display: none;
-    }
 
-    .navBtn__mobile {
-        display: block;
+
+@media only screen and (max-width: 600px) {
+    .newsletter-bx{
+        padding: 38px 24px !important; 
     }
-}
+  }

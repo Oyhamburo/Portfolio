@@ -70,7 +70,6 @@ export const Projects = () => {
     }
   ]
 
-  console.log(width)
 
 
 
