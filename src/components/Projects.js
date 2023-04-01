@@ -66,7 +66,7 @@ export const Projects = () => {
       title: "Pokemon Javascript",
       description: "Javascript & NodeJs",
       imgUrl: pokeJs,
-      link: ''
+      link: 'https://pokejs-production.up.railway.app'
     }
   ]
 
