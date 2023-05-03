@@ -7,6 +7,7 @@ import pokedex from "../assets/img/pokedex.jpeg";
 import portfolio from "../assets/img/portfolio.gif";
 import cerchio from "../assets/img/cerchio.jpeg";
 import pokeJs from "../assets/img/pokeJs.gif";
+import vapePage from "../assets/img/vapePage.gif";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import './main.css'
@@ -71,7 +72,7 @@ export const Projects = () => {
     {
       title: "Ecommerce Vaporizers",
       description: "MERN",
-      imgUrl: pokeJs,
+      imgUrl: vapePage,
       link: 'https://jeremias.fhdev.com.ar'
     }
   ]
