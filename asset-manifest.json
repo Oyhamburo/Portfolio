@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5c8283d5.css",
-    "main.js": "/Portfolio/static/js/main.a1240efa.js",
+    "main.css": "/Portfolio/static/css/main.531f5306.css",
+    "main.js": "/Portfolio/static/js/main.4bec2240.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/a.gif": "/Portfolio/static/media/a.3fa5b18ae5144a6dbdd1.gif",
     "static/media/pokeJs.gif": "/Portfolio/static/media/pokeJs.1c4447564fee9fcdcc37.gif",
+    "static/media/vapePage.gif": "/Portfolio/static/media/vapePage.8c770c614c7c16a3d2e0.gif",
     "static/media/portfolio.gif": "/Portfolio/static/media/portfolio.08fa61818ebe409952f0.gif",
     "static/media/color-sharp.png": "/Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -29,12 +30,12 @@
     "static/media/nav-icon2.svg": "/Portfolio/static/media/nav-icon2.ec390650397d26ac448443b57c4bc0b9.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/nav-icon1.svg": "/Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.5c8283d5.css.map": "/Portfolio/static/css/main.5c8283d5.css.map",
-    "main.a1240efa.js.map": "/Portfolio/static/js/main.a1240efa.js.map",
+    "main.531f5306.css.map": "/Portfolio/static/css/main.531f5306.css.map",
+    "main.4bec2240.js.map": "/Portfolio/static/js/main.4bec2240.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c8283d5.css",
-    "static/js/main.a1240efa.js"
+    "static/css/main.531f5306.css",
+    "static/js/main.4bec2240.js"
   ]
 }
