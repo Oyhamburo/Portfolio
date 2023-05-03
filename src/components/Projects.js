@@ -58,15 +58,21 @@ export const Projects = () => {
   const projectsNode = [
     {
       title: "Cerchio Resto",
-      description: "ReactJs & NodeJs",
+      description: "ReactJs & NodeJs & mySQL",
       imgUrl: cerchio,
       link: 'https://www.cerchioresto.com'
     },
     {
       title: "Pokemon Javascript",
-      description: "Javascript & NodeJs",
+      description: "Javascript Vanilla & NodeJs & MongoDB",
       imgUrl: pokeJs,
       link: 'https://pokejs-production.up.railway.app'
+    },
+    {
+      title: "Ecommerce Vaporizers",
+      description: "MERN",
+      imgUrl: pokeJs,
+      link: 'https://jeremias.fhdev.com.ar'
     }
   ]
 
